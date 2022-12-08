@@ -5,7 +5,7 @@
   "scripts": {
     "test": "cross-env NODE_ENV=test jest --verbose --runInBand --forceExit",
     "dev": "cross-env NODE_ENV=development nodemon --inspect ./bin/www",
-    "start": "cross-env NODE_ENV=production node app.js"
+    "start": "nodemon --inspect ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
