@@ -1,0 +1,4 @@
+.env
+.prettierrc
+jest.config.js
+/src/tests
